@@ -7,6 +7,7 @@ The purpose of this module is to build a VPC with a bastion server what is used 
 ### Prerequisites / Dependencies:
 * Following modules are required to be installed as prerequisites:
   * [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+  * AWS CLI
   * AWS `Access Key ID`
   * AWS `Secret Access Key`
 
