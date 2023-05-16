@@ -35,3 +35,4 @@ override.tf.json
 terraform.rc
 git-token.txt
 
+aws-vpc1-module.drawio
