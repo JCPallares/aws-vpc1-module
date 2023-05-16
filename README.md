@@ -99,9 +99,6 @@ ssh -i key.pem ubuntu@<windows_ip>
 #### Linux Server Module
 * [aws_instance]
 
-
-### Pricing Information
-
 ### How to destroy:
 
 * Execute terraform commands:
@@ -109,3 +106,6 @@ ssh -i key.pem ubuntu@<windows_ip>
 terraform destroy
 ```
 
+### Pricing Information
+
+NAT Gateway USD/hour 0,045 USD & per/Gig 0,045 USD (EE.UU east Ohio)

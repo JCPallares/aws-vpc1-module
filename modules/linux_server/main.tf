@@ -26,6 +26,6 @@ resource "aws_instance" "linux_server" {
 
   tags = {
     Name        = "linux_server"
-    Environment = "datacenter"
+    Environment = ""
   }
 }

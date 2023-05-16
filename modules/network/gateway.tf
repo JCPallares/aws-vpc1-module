@@ -1,7 +1,7 @@
 # Gateway Resources
 
 ###########
-# Internet
+# Internet Gateway
 ###########
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.vpc.id
@@ -48,6 +48,7 @@ resource "aws_eip" "eip" {
   }
 }
 
+#PUBLIC NAT GATEWAY
 resource "aws_nat_gateway" "nat_gw" {
   allocation_id = var.eip_alloc_id != "" ? var.eip_alloc_id : aws_eip.eip[0].id
   subnet_id     = aws_subnet.vpc_public_subnet[0].id
